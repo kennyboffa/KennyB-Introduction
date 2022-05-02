@@ -46,5 +46,6 @@ export default {
     left: 0vh;
     right: 0vh;
     margin-bottom: 40px;
+      margin-top: 5vh;
 }
 </style>

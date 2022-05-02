@@ -16,7 +16,6 @@
       width="70%"
       @load="load()"
     />
-    adasdsa
   </div>
 </template>
 
@@ -44,6 +43,7 @@ export default {
 }
 .cv{
 margin-top:3vh;
+height: 200vh;
 
 }
 .progress-circle{
