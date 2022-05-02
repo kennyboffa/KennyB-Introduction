@@ -43,7 +43,7 @@ export default {
 }
 .cv{
 margin-top:3vh;
-height: 200vh;
+height: 100vh;
 
 }
 .progress-circle{

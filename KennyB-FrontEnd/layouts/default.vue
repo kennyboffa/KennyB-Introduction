@@ -20,11 +20,6 @@ export default {
 }
 </script>
 <style scoped>
-.main-content{
-  width: 80%;
-margin-left:auto;
-margin-right:auto;
-}
 .container {
   display: flex;
   flex-direction: column;

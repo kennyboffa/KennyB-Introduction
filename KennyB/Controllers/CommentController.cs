@@ -53,9 +53,10 @@ namespace KennyB.Controllers
         }
 
         [HttpGet("comment")]
-        public async Task <IActionResult> GetComment(int id)
+        public async Task <IActionResult> GetAllComments()
         {
-            return Ok();
+            var comments =  _dbContext.Comments.ToList();
+            return Ok(comments);
         }
 
 
